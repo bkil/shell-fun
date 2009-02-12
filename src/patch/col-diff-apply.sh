@@ -2,7 +2,7 @@
 
 main() {
   local TMP FILE HASH IOFS OOFS KEEP SKIP INSERT GOTHASH
-  readonly TMP="`tempfile -p cold -s .col-diff.sh.txt.tmp`"
+  readonly TMP="`tempfile -p cold -s .col-diff.sh.txt.tmp 2>/dev/null || echo /tmp/$(date +%s).$$.col-diff.sh.txt.tmp`"
   while read FILE; do
     read HASH
     IOFS=0
@@ -14,10 +14,10 @@ main() {
       read INSERT
       ! [ "0$KEEP" -eq 0 ] || ! [ "0$SKIP" -eq 0 ] || ! [ "0$INSERT" -eq 0 ]
     do
-      dd bs=1 if="$FILE" skip="$IOFS" of="$TMP" seek="$OOFS" count="$KEEP" status=none
+      dd bs=1 if="$FILE" skip="$IOFS" of="$TMP" seek="$OOFS" count="$KEEP" 2>/dev/null
       IOFS=$((IOFS+KEEP+SKIP))
       OOFS=$((OOFS+KEEP))
-      dd bs=1 of="$TMP" seek="$OOFS" count="$INSERT" status=none
+      dd bs=1 of="$TMP" seek="$OOFS" count="$INSERT" 2>/dev/null
       OOFS=$((OOFS+INSERT))
     done
 
