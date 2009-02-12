@@ -3,8 +3,11 @@
 main() {
   local TMP FILE HASH IOFS OOFS KEEP SKIP INSERT GOTHASH
   readonly TMP="`tempfile -p cold -s .col-diff.sh.txt.tmp 2>/dev/null || echo /tmp/$(date +%s).$$.col-diff.sh.txt.tmp`"
-  while read FILE; do
+  while
+    read FILE
     read HASH
+    [ -f "$FILE" ] && [ -n "$HASH" ]
+  do
     IOFS=0
     OOFS=0
     rm "$TMP" 2>/dev/null
