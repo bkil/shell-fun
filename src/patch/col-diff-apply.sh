@@ -12,11 +12,12 @@ main() {
       read KEEP
       read SKIP
       read INSERT
-      ! [ "0$KEEP" -eq 0 ] || ! [ "0$SKIP" -eq 0 ] || ! [ "0$INSERT" -eq 0 ]
+      [ "0$KEEP" -ne 0 ] || [ "0$SKIP" -ne 0 ] || [ "0$INSERT" -ne 0 ]
     do
       dd bs=1 if="$FILE" skip="$IOFS" of="$TMP" seek="$OOFS" count="$KEEP" 2>/dev/null
       IOFS=$((IOFS+KEEP+SKIP))
       OOFS=$((OOFS+KEEP))
+
       dd bs=1 of="$TMP" seek="$OOFS" count="$INSERT" 2>/dev/null
       OOFS=$((OOFS+INSERT))
     done
@@ -26,7 +27,7 @@ main() {
       if
         mv "$TMP" "$FILE"
       then
-        echo "debug: patched $FILE"
+        echo "debug: patched $FILE" >&2
       else
         echo "error: failed to overwrite $FILE" >&2
       fi
