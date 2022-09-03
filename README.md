@@ -6,7 +6,9 @@
 * `info coreutils`
 * `info sed`
 * https://wikibooks.org/wiki/Bourne_Shell_Scripting
-* http://help.envs.net/tutorials/bash-guide
+* https://help.envs.net/tutorials/bash-guide
+* https://tldp.org/LDP/Bash-Beginners-Guide/html
+* https://linuxcommand.org/
 
 ## Debugging
 
