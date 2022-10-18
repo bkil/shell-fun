@@ -9,6 +9,7 @@
 * https://help.envs.net/tutorials/bash-guide
 * https://tldp.org/LDP/Bash-Beginners-Guide/html
 * https://linuxcommand.org/
+* https://www.gnu.org/software/bash/manual/bash.html
 
 ## Debugging
 
