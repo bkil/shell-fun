@@ -10,6 +10,8 @@
 * https://tldp.org/LDP/Bash-Beginners-Guide/html
 * https://linuxcommand.org/
 * https://www.gnu.org/software/bash/manual/bash.html
+* https://github.com/lhunath/guide.bash.academy
+* https://github.com/learnbyexample/learn_gnuawk
 
 ## Debugging
 
