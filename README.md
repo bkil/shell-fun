@@ -6,7 +6,7 @@
 * `info coreutils`
 * `info sed`
 * https://wikibooks.org/wiki/Bourne_Shell_Scripting
-* https://help.envs.net/tutorials/bash-guide
+* https://github.com/Idnan/bash-guide
 * https://tldp.org/LDP/Bash-Beginners-Guide/html
 * https://linuxcommand.org/
 * https://www.gnu.org/software/bash/manual/bash.html
