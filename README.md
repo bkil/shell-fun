@@ -8,10 +8,12 @@
 * https://wikibooks.org/wiki/Bourne_Shell_Scripting
 * https://github.com/Idnan/bash-guide
 * https://tldp.org/LDP/Bash-Beginners-Guide/html
+* https://packages.debian.org/bookworm/doc/abs-guide
 * https://linuxcommand.org/
 * https://www.gnu.org/software/bash/manual/bash.html
 * https://github.com/lhunath/guide.bash.academy
 * https://github.com/learnbyexample/learn_gnuawk
+* https://packages.debian.org/bookworm/doc/bash-doc
 
 ## Debugging
 
