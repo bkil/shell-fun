@@ -34,6 +34,14 @@
 
 > Plugin that generates completion functions automatically from getopt-style help texts
 
+* https://gitlab.mbedsys.org/mbedsys/bashopts
+
+> BashOpts is a helper to manage easily options, command line arguments and settings in a bash sell script.
+
+## Tutorial
+
+* https://flokoe.github.io/bash-hackers-wiki/howto/getopts_tutorial/
+
 ## Other languages
 
 * https://github.com/DavidGamba/go-getoptions
@@ -50,4 +58,5 @@
 
 ## References
 
-* https://stackoverflow.com/questions/54669795/automatic-parsing-of-getopts-options-into-dynamic-variables-of-same-name-in-bash/54672214#54672214
+* https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
+* https://stackoverflow.com/questions/54669795/automatic-parsing-of-getopts-options-into-dynamic-variables-of-same-name-in-bash/54672214
