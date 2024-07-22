@@ -1,5 +1,7 @@
 # Argument parsing
 
+## Shell
+
 * https://github.com/matejak/argbash
 
 > Bash argument parsing code generator
@@ -31,6 +33,8 @@
 * https://github.com/RobSis/zsh-completion-generator
 
 > Plugin that generates completion functions automatically from getopt-style help texts
+
+## Other languages
 
 * https://github.com/DavidGamba/go-getoptions
 
