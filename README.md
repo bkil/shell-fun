@@ -14,6 +14,7 @@
 * https://github.com/lhunath/guide.bash.academy
 * https://github.com/learnbyexample/learn_gnuawk
 * https://packages.debian.org/bookworm/doc/bash-doc
+* https://github.com/flokoe/bash-hackers-wiki
 
 ## Debugging
 
@@ -21,6 +22,7 @@
 * `apt install shellcheck strace`
 * https://github.com/koalaman/shellcheck
 * http://manpages.ubuntu.com/manpages/bionic/man1/checkbashisms.1.html
+* https://wiki.ubuntu.com/DashAsBinSh#I_am_a_developer._How_can_I_avoid_this_problem_in_future.3F
 
 ## Examples
 
