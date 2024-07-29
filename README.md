@@ -21,6 +21,7 @@
 * `bash -x`
 * `apt install shellcheck strace`
 * https://github.com/koalaman/shellcheck
+* https://github.com/anordal/shellharden
 * http://manpages.ubuntu.com/manpages/bionic/man1/checkbashisms.1.html
 * https://wiki.ubuntu.com/DashAsBinSh#I_am_a_developer._How_can_I_avoid_this_problem_in_future.3F
 
