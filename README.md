@@ -27,11 +27,7 @@
 
 ## Examples
 
-* https://shellscript.sh/
-* https://github.com/openwrt/openwrt/tree/master/package/base-files/files
-* https://codeberg.org/Sapphire/sapphire-butler/src/branch/master/departments
-* https://github.com/pacstall/pacstall-programs
-* https://github.com/awesome-lists/awesome-bash
+[doc/example-source-snippets.md](doc/example-source-snippets.md)
 
 ## Notes
 
