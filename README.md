@@ -38,3 +38,4 @@
 Join our chat room:
 
 * https://matrix.to/#funshell:matrix.org
+* xmpp:fun-shell@conference.movim.eu?join
