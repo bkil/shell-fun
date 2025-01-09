@@ -16,6 +16,8 @@ We just need to render and index each linked to FOSS source to host it on a CORS
 
 If docs are generated, we should implement a parser for their markdown input present in their git repo in such cases usually, although we could actually have a version dropdown to show the difference between the upstream development version and one of the released version (per Linux distribution even).
 
+Some of the sources are provided in an internationalized version, translated to different languages. The client API should have a choice for preferred languages to show documentation in and optionally provide an English fallback.
+
 ## Plan
 
 ### Map all documentation sources
