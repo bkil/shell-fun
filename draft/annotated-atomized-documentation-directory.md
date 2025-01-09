@@ -22,7 +22,8 @@ If docs are generated, we should implement a parser for their markdown input pre
 
 We have already listed a few of the most important FOSS documentation sources for shell development:
 
-[../README.md](../README.md)
+* [../README.md](../README.md)
+* [../doc/example-source-snippets.md](../doc/example-source-snippets.md)
 
 We should enumerate all available sources. Annotate which ones are still maintained and which ones are forks of others.
 
