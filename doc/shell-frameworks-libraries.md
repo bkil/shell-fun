@@ -26,3 +26,9 @@ https://github.com/modernish/modernish
 https://github.com/jmmv/shtk
 
 > The Shell Toolkit, or shtk for short, is an application toolkit for programmers writing POSIX-compliant shell scripts. shtk provides a collection of reusable modules that work on a wide variety of operating systems and shell interpreters. These modules are all ready to be used by calling the provided shtk_import primitive and "compiling" the shell scripts into their final form using the shtk(1) utility. shtk is known to be compatible with at least bash, dash, pdksh and zsh, and continuous integration tests prove this to be the case.
+
+# tplasdio awkl
+
+https://codeberg.org/tplasdio/awkl
+
+> Awkl (short for Awk's well-kempt library) is a library that attempts to bring modules present in other languages' standard libraries to gawk. The library makes use of gawk's namespaces (available since version 5.0) and other gawk-specific features, but we reckon a good part of the library could be adapted to be awk-agnostic (maybe with a hypothetical transpiler)
