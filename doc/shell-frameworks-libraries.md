@@ -7,6 +7,14 @@ https://github.com/niieani/bash-oo-framework
 > Bash Infinity is a modern standard library / framework / boilerplate for Bash
 > The aim of Bash Infinity is to maximize readability of bash scripts, minimize the amount of code repeat and create a central repository for well-written, and a well-tested standard library for bash.
 
+## bashpp
+
+* https://github.com/rail5/bashpp
+* https://bpp.sh/language.html
+
+> Bash++: Bash with classes
+> Bash++ is a superset of Bash that adds support for object-oriented programming. Almost all Bash code is valid Bash++ code. The Bash++ extension for Visual Studio Code provides basic syntax highlighting.
+
 ## fixed point math in pure bash
 
 https://github.com/ulfnic/fixed-point-math-in-pure-bash
