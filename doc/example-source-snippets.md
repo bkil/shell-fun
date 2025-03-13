@@ -17,3 +17,4 @@
 * https://github.com/pkrumins/perl1line.txt
 * https://github.com/cheat/cheatsheets
 * https://github.com/chubin/cheat.sheets
+* https://codeberg.org/justinz/bash-csv-diplayer
