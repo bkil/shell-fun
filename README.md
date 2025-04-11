@@ -16,6 +16,11 @@
 * https://packages.debian.org/bookworm/doc/bash-doc
 * https://github.com/flokoe/bash-hackers-wiki
 
+### vi
+
+* https://github.com/paulrougieux/paulrougieux.github.io/blob/master/vim.Rmd
+* https://github.com/mhinz/vim-galore
+
 ## Debugging
 
 * `bash -x`
